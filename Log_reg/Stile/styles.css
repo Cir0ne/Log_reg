@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+body{
+	background-color: #262528;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+label {
+	text-decoration-color: black;
+	display: inline-block;
+	width: 200px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+}
+
+
+*{
+font-family: 'Gotham', sans-serif;
+color: white;
+box-sizing: border-box;
+
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+form{
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #616162;
+	border-radius: 15px;
+	border-color: #E4FE00;
+}
+
+button {
+	float: right;
+	background-color: #E4FE00;
+	border: none;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+button:hover {
+	opacity: .7;
+}
+
+input{
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+a{
+	text-decoration-color: lightblue;
+}
+input, select, textarea{
+    color: black;
+}
+
+.error {
+	background: #ffffff;
+	color: #cf7070;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+img {
+max-width: 13%;
+height: auto;
+
+}
+
+.ribbon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+
+}

@@ -1,0 +1,57 @@
+body {
+  background-color: #262528;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+*{
+font-family: 'Gotham', sans-serif;
+color: white;
+box-sizing: border-box;
+}
+
+.logout {
+	float: right;
+	background-color: #E4FE00;
+	border: none;
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.logout:hover {
+	opacity: .7;
+}
+
+.error {
+	background: #ffffff;
+	color: #cf7070;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+.success{
+  background: #ffffff;
+  color: #48827c;
+  padding: 10px;
+  width: 95%;
+  border-radius: 5px;
+  margin: 20px auto;
+}
